@@ -3,20 +3,20 @@ MIPS based limited instruction set single-cycle Microprocessor.
 
 In the ISE Project Navigator, hierarchy should be as follows:
 <b>
-Processor_tb
-  SCP - Single_Cycle_Processor
-    CU00 - Control Unit
-      MD00 - CU_MainDecoder
-      AD00 - CU_ALUDecoder
-    IM00 - instruction_memory
-    RF00 - WFRegisterFile
-    A00 -  ALU
-      AU00 - Arithmetic_unit
-      LU00 - Logic_unit
-      MX00 - ALmux_unit
-    SE00 - SignExtend
-    DM00 - data_memory
-    PC00 - PC_ProgramCounter
+1. Processor_tb
+  a. SCP - Single_Cycle_Processor
+    I. CU00 - Control Unit
+      i. MD00 - CU_MainDecoder
+     ii. AD00 - CU_ALUDecoder
+   II. IM00 - instruction_memory
+  III. RF00 - WFRegisterFile
+   IV. A00 -  ALU
+      i. AU00 - Arithmetic_unit
+     ii. LU00 - Logic_unit
+    iii. MX00 - ALmux_unit
+    V. SE00 - SignExtend
+   VI. DM00 - data_memory
+  VII. PC00 - PC_ProgramCounter
 </b>    
 The naming of some files is not standard, apologies.
 Make sure to have the "prog.dat" file in a local directory.
